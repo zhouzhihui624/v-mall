@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>别踩白块</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>黑白格上的钢琴</h1>
+        <h2>——经典模式</h2>
+        <span id="play" class="btns">开始游戏(F2)</span>
+        <span id="pause" class="btns">暂停游戏(SPACE)</span>
+        <span id="stop" class="btns">停止游戏(F4)</span>
+        <p><audio id="bgMusic" src="love story.mp3"></audio></p>
+    </div>
+    <div class="container">
+        <div class="left">
+            <p>分数：<span id='grade'>0</span></p>
+        </div>
+        <div class="main" id='mainID'>
+            <div id="row01" class="row">
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+            </div>
+            <div id="row02" class="row">
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+            </div>
+            <div id="row03" class="row">
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+            </div>
+            <div id="row04" class="row">
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+            </div>
+            <div id="row05" class="row">
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+                <div class="grid-default"></div>
+            </div>
+            <div id="row-flag" class="row"></div>
+        </div>
+    </div>
+    <div class="tips">
+        <span class="tips-down">D</span>
+        <span class="tips-down">F</span>
+        <span class="tips-down">J</span>
+        <span class="tips-down">K</span>
+    </div>
+    <script src="script.js"></script>
+</body>
